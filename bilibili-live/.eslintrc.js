@@ -71,6 +71,7 @@ module.exports = {
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/no-var-requires': 'off',
     'prettier/prettier': ['error'],
+    'no-underscore-dangle': 0,
   },
   settings: {
     'import/resolver': {

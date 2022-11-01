@@ -1,11 +1,15 @@
 import React from 'react';
-import './App.css';
-import { useRoutes } from 'react-router-dom';
-import { routes } from '@/routes';
+import { Header } from '@/components/Header';
+import Router from '@/routes';
+import '@style/App.less';
 
 function App() {
-  const elementRoute = useRoutes(routes);
-  return <div className='App'>{elementRoute}</div>;
+  return (
+    <div className='App'>
+      <Header />
+      <Router />
+    </div>
+  );
 }
 
 export default App;

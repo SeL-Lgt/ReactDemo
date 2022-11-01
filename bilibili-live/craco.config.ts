@@ -6,6 +6,7 @@ const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const CompressionWebpackPlugin = require('compression-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const pxToViewport = require('postcss-px-to-viewport-8-plugin');
+const CracoLessPlugin = require('craco-less');
 
 const isDev = process.env.NODE_ENV === 'development';
 
@@ -58,6 +59,7 @@ module.exports = {
     },
     alias: {
       '@': path.join(__dirname, 'src'),
+      '@style': path.join(__dirname, 'src/assets/style'),
     },
     plugins: {
       add: [
@@ -70,6 +72,23 @@ module.exports = {
       ],
     },
   },
+  plugins: [
+    // 配置 less
+    {
+      plugin: CracoLessPlugin,
+      options: {
+        lessLoaderOptions: {
+          lessOptions: {
+            modifyVars: {
+              // 自定义主题（如果有需要，单独文件定义更好一些）
+              '@Theme-color': '#FB7299',
+            },
+            javascriptEnabled: true,
+          },
+        },
+      },
+    },
+  ],
   style: {
     postcss: {
       mode: 'extends',
