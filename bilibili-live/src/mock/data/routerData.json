@@ -1,0 +1,433 @@
+[
+  {
+    "path": "/shouye",
+    "title": "首页",
+    "children": false
+  },
+  {
+    "path": "/donghua",
+    "title": "动画",
+    "children": [
+      {
+        "path": "/donghua/1",
+        "title": "推荐"
+      },
+      {
+        "path": "/donghua/2",
+        "title": "MAD·AMV"
+      },
+      {
+        "path": "/donghua/3",
+        "title": "MMD·3D"
+      },
+      {
+        "path": "/donghua/4",
+        "title": "短片·手书·配音"
+      },
+      {
+        "path": "/donghua/5",
+        "title": "手办·模玩"
+      },
+      {
+        "path": "/donghua/6",
+        "title": "特摄"
+      },
+      {
+        "path": "/donghua/7",
+        "title": "综合"
+      }
+    ]
+  },
+  {
+    "path": "/fanju",
+    "title": "番剧",
+    "children": [
+      {
+        "path": "/fanju/1",
+        "title": "推荐"
+      },
+      {
+        "path": "/fanju/2",
+        "title": "连载动画"
+      },
+      {
+        "path": "/fanju/3",
+        "title": "完结动画"
+      },
+      {
+        "path": "/fanju/4",
+        "title": "咨询"
+      },
+      {
+        "path": "/fanju/5",
+        "title": "官方延伸"
+      }
+    ]
+  },
+  {
+    "path": "/guochuang",
+    "title": "国创",
+    "children": [
+      {
+        "path": "/guochuang/1",
+        "title": "推荐"
+      },
+      {
+        "path": "/guochuang/2",
+        "title": "国创动画"
+      },
+      {
+        "path": "/guochuang/3",
+        "title": "国创原创相关"
+      },
+      {
+        "path": "/guochuang/4",
+        "title": "布袋戏"
+      },
+      {
+        "path": "/guochuang/5",
+        "title": "动态漫·广播剧"
+      },
+      {
+        "path": "/guochuang/6",
+        "title": "咨询"
+      }
+    ]
+  },
+  {
+    "path": "/yinyue",
+    "title": "音乐",
+    "children": [
+      {
+        "path": "/yinyue/1",
+        "title": "推荐"
+      },
+      {
+        "path": "/yinyue/2",
+        "title": "原创音乐"
+      },
+      {
+        "path": "/yinyue/3",
+        "title": "翻唱"
+      },
+      {
+        "path": "/yinyue/4",
+        "title": "演奏"
+      },
+      {
+        "path": "/yinyue/5",
+        "title": "VOCALOID·UTAU"
+      },
+      {
+        "path": "/yinyue/6",
+        "title": "音乐现场"
+      }
+    ]
+  },
+  {
+    "path": "/wudao",
+    "title": "舞蹈",
+    "children": [
+      {
+        "path": "/wudao/1",
+        "title": "推荐"
+      },
+      {
+        "path": "/wudao/2",
+        "title": "宅舞"
+      },
+      {
+        "path": "/wudao/3",
+        "title": "街舞"
+      },
+      {
+        "path": "/wudao/4",
+        "title": "明星舞蹈"
+      },
+      {
+        "path": "/wudao/5",
+        "title": "中国舞"
+      },
+      {
+        "path": "/wudao/6",
+        "title": "舞蹈综合"
+      },
+      {
+        "path": "/wudao/7",
+        "title": "舞蹈教程"
+      }
+    ]
+  },
+  {
+    "path": "/zhishi",
+    "title": "知识",
+    "children": [
+      {
+        "path": "/zhishi/1",
+        "title": "科学科普"
+      },
+      {
+        "path": "/zhishi/2",
+        "title": "社科·法律·心理"
+      },
+      {
+        "path": "/zhishi/3",
+        "title": "人文历史"
+      },
+      {
+        "path": "/zhishi/4",
+        "title": "财经商业"
+      },
+      {
+        "path": "/zhishi/5",
+        "title": "校园学习"
+      }
+    ]
+  },
+  {
+    "path": "/keji",
+    "title": "科技",
+    "children": [
+      {
+        "path": "/keji/1",
+        "title": "推荐"
+      },
+      {
+        "path": "/keji/2",
+        "title": "数码"
+      },
+      {
+        "path": "/keji/3",
+        "title": "软件应用"
+      },
+      {
+        "path": "/keji/4",
+        "title": "计算机技术"
+      },
+      {
+        "path": "/keji/5",
+        "title": "科工机械"
+      },
+      {
+        "path": "/keji/6",
+        "title": "极客DIY"
+      }
+    ]
+  },
+  {
+    "path": "/yundong",
+    "title": "运动",
+    "children": [
+      {
+        "path": "/yundong/1",
+        "title": "推荐"
+      },
+      {
+        "path": "/yundong/2",
+        "title": "篮球"
+      },
+      {
+        "path": "/yundong/3",
+        "title": "足球"
+      },
+      {
+        "path": "/yundong/4",
+        "title": "健身"
+      },
+      {
+        "path": "/yundong/5",
+        "title": "竞技体育"
+      },
+      {
+        "path": "/yundong/6",
+        "title": "运动文化"
+      },
+      {
+        "path": "/yundong/7",
+        "title": "运动综合"
+      }
+    ]
+  },
+  {
+    "path": "/qiche",
+    "title": "汽车",
+    "children": [
+      {
+        "path": "/qiche/1",
+        "title": "推荐"
+      },
+      {
+        "path": "/qiche/2",
+        "title": "赛车"
+      },
+      {
+        "path": "/qiche/3",
+        "title": "改装玩车"
+      },
+      {
+        "path": "/qiche/4",
+        "title": "新能源车"
+      },
+      {
+        "path": "/qiche/5",
+        "title": "房车"
+      },
+      {
+        "path": "/qiche/6",
+        "title": "摩托车"
+      },
+      {
+        "path": "/qiche/7",
+        "title": "购车攻略"
+      }
+    ]
+  },
+  {
+    "path": "/shenghuo",
+    "title": "生活",
+    "children": [
+      {
+        "path": "/shenghuo/1",
+        "title": "推荐"
+      },
+      {
+        "path": "/shenghuo/2",
+        "title": "赛车"
+      },
+      {
+        "path": "/shenghuo/3",
+        "title": "改装玩车"
+      },
+      {
+        "path": "/shenghuo/4",
+        "title": "新能源车"
+      },
+      {
+        "path": "/shenghuo/5",
+        "title": "房车"
+      },
+      {
+        "path": "/shenghuo/6",
+        "title": "摩托车"
+      },
+      {
+        "path": "/shenghuo/7",
+        "title": "购车攻略"
+      }
+    ]
+  },
+  {
+    "path": "/meishi",
+    "title": "美食",
+    "children": [
+      {
+        "path": "/meishi/1",
+        "title": "推荐"
+      },
+      {
+        "path": "/meishi/2",
+        "title": "赛车"
+      },
+      {
+        "path": "/meishi/3",
+        "title": "改装玩车"
+      },
+      {
+        "path": "/meishi/4",
+        "title": "新能源车"
+      },
+      {
+        "path": "/meishi/5",
+        "title": "房车"
+      },
+      {
+        "path": "/meishi/6",
+        "title": "摩托车"
+      },
+      {
+        "path": "/meishi/7",
+        "title": "购车攻略"
+      }
+    ]
+  },
+  {
+    "path": "/dongwuquan",
+    "title": "动物圈",
+    "children": [
+      {
+        "path": "/dongwuquan/1",
+        "title": "推荐"
+      },
+      {
+        "path": "/dongwuquan/2",
+        "title": "赛车"
+      },
+      {
+        "path": "/dongwuquan/3",
+        "title": "改装玩车"
+      },
+      {
+        "path": "/dongwuquan/4",
+        "title": "新能源车"
+      },
+      {
+        "path": "/dongwuquan/5",
+        "title": "房车"
+      },
+      {
+        "path": "/dongwuquan/6",
+        "title": "摩托车"
+      },
+      {
+        "path": "/dongwuquan/7",
+        "title": "购车攻略"
+      }
+    ]
+  },
+  {
+    "path": "/guichu",
+    "title": "鬼畜",
+    "children": ""
+  },
+  {
+    "path": "/shishang",
+    "title": "时尚",
+    "children": ""
+  },
+  {
+    "path": "/yule",
+    "title": "娱乐",
+    "children": ""
+  },
+  {
+    "path": "/yingshi",
+    "title": "影视",
+    "children": ""
+  },
+  {
+    "path": "/jilupian",
+    "title": "纪录片",
+    "children": ""
+  },
+  {
+    "path": "/dianying",
+    "title": "电影",
+    "children": ""
+  },
+  {
+    "path": "/dianshiju",
+    "title": "电视剧",
+    "children": ""
+  },
+  {
+    "path": "/xiangbu",
+    "title": "相簿",
+    "children": ""
+  },
+  {
+    "path": "/ketang",
+    "title": "课堂",
+    "children": ""
+  }
+]
+

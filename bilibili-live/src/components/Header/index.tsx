@@ -2,9 +2,26 @@ import * as React from 'react';
 import './index.less';
 import { Link } from 'react-router-dom';
 import BILIBILI from '@/assets/images/bilibili.png';
-import { Tabs } from 'antd-mobile';
+import { BaseState } from '@/mock/interface';
+import {
+  requestBaseNavList,
+  setBaseNavList,
+} from '@/redux/modules/base/action';
+import { connect } from 'react-redux';
+import { useEffect } from 'react';
+import { NavList } from '@/components/NavList';
 
-export const Header = () => {
+type PropType = {
+  requestNav: () => void;
+  baseReducer: BaseState;
+};
+
+function Header(props: PropType) {
+  const { requestNav, baseReducer } = props;
+  useEffect(() => {
+    requestNav();
+  }, []);
+
   return (
     <>
       <header className='header'>
@@ -12,11 +29,13 @@ export const Header = () => {
           <img src={BILIBILI} />
         </Link>
       </header>
-      <Tabs>
-        <Tabs.Tab title='水果' key='fruits'>
-          菠萝
-        </Tabs.Tab>
-      </Tabs>
+      <NavList baseReducer={baseReducer} />
     </>
   );
+}
+
+const mapStateToProps = (state: { baseReducer: BaseState }) => {
+  return { baseReducer: state.baseReducer };
 };
+const mapDispatchToProps = { setBaseNavList, requestNav: requestBaseNavList };
+export default connect(mapStateToProps, mapDispatchToProps)(Header);

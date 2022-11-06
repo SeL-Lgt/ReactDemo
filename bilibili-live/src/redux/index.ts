@@ -9,9 +9,10 @@ import { persistStore, persistReducer } from 'redux-persist';
 import reduxThunk from 'redux-thunk';
 import reduxPromise from 'redux-promise';
 import storage from 'redux-persist/lib/storage';
+import baseReducer from '@/redux/modules/base/reducer';
 
 // 组合多个reducer
-const reducer = combineReducers({});
+const reducer = combineReducers({ baseReducer });
 
 // 持久化配置
 const persistConfig = {

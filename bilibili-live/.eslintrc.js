@@ -7,7 +7,7 @@ module.exports = {
     JSX: true,
   },
   extends: [
-    'airbnb-base',
+    'airbnb',
     'airbnb-typescript',
     'airbnb/hooks',
     'plugin:@typescript-eslint/recommended',
@@ -23,7 +23,7 @@ module.exports = {
     },
     ecmaVersion: 2020,
     sourceType: 'module',
-    project: ['tsconfig.json'],
+    project: ['./tsconfig.json'],
   },
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
@@ -38,8 +38,8 @@ module.exports = {
       'ignorePackages',
       {
         js: 'never',
-        ts: 'never',
         jsx: 'never',
+        ts: 'never',
         tsx: 'never',
       },
     ],
@@ -72,11 +72,17 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
     'prettier/prettier': ['error'],
     'no-underscore-dangle': 0,
+    'default-param-last': 'off',
+    '@typescript-eslint/default-param-last': 'off',
+    'react-hooks/exhaustive-deps': 'off',
   },
   settings: {
     'import/resolver': {
       alias: {
-        map: [['@', './src/']],
+        map: [
+          ['@', './src/'],
+          ['@style', './src/assets/style/'],
+        ],
       },
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
