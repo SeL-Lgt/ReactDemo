@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Dropdown, Tabs } from 'antd-mobile';
-import { BaseState } from '@/mock/interface';
+import { BaseState } from '@/redux/interface';
 import { useEffect, useRef, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './index.less';

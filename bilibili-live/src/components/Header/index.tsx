@@ -2,7 +2,7 @@ import * as React from 'react';
 import './index.less';
 import { Link, useLocation } from 'react-router-dom';
 import BILIBILI from '@/assets/images/bilibili.png';
-import { BaseState } from '@/mock/interface';
+import { BaseState } from '@/redux/interface';
 import {
   requestBaseNavList,
   setBaseNavList,

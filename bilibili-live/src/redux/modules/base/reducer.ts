@@ -1,6 +1,6 @@
 import { AnyAction } from 'redux';
 import * as types from '@/redux/mutation-types';
-import { BaseState } from '@/mock/interface';
+import { BaseState } from '@/redux/interface';
 
 const baseState: BaseState = {
   navList: [{ path: '', title: '', children: false }],
