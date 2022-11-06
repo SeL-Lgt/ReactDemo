@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './index.less';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import BILIBILI from '@/assets/images/bilibili.png';
 import { BaseState } from '@/mock/interface';
 import {
@@ -25,7 +25,7 @@ function Header(props: PropType) {
   return (
     <>
       <header className='header'>
-        <Link to='/'>
+        <Link to='/shouye'>
           <img src={BILIBILI} />
         </Link>
       </header>

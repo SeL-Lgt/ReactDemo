@@ -31,7 +31,10 @@ export function NavList(props: PropType) {
     const pathArr = pathname.match(/\/\w+/g);
     if (Array.isArray(pathArr)) {
       const [parentTab, childrenTab] = pathArr;
-      if (!childrenTab && children.length > 0) {
+      if (parentTab === '/shouye') {
+        setChildren([]);
+      }
+      if (!childrenTab && children.length > 0 && parentTab !== '/shouye') {
         navigate(`${parentTab}/1`);
       }
       setParentActiveKey(parentTab);
@@ -113,7 +116,9 @@ export function NavList(props: PropType) {
         </Dropdown>
       </div>
       {children.length > 0 && (
-        <Tabs activeKey={childrenActiveKey}>{tabView(children)}</Tabs>
+        <Tabs key={childrenActiveKey} activeKey={childrenActiveKey}>
+          {tabView(children)}
+        </Tabs>
       )}
     </div>
   );
